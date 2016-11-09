@@ -1,6 +1,6 @@
 {
   "name": "alfred-node",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Alfred 3 workflow to search for Node.js documentation",
   "license": "MIT",
   "repository": "SamVerschueren/alfred-node",
