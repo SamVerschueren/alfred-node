@@ -1,9 +1,6 @@
 'use strict';
 const alfy = require('alfy');
-const alfredNotifier = require('alfred-notifier');
 const builtinModules = require('builtin-modules/static');
-
-alfredNotifier();
 
 const items = builtinModules.map(module => {
 	const url = `https://nodejs.org/api/${module}.html`;
