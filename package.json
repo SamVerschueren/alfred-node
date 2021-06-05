@@ -1,46 +1,46 @@
 {
-  "name": "alfred-node",
-  "version": "0.2.0",
-  "description": "Alfred 3 workflow to search for Node.js documentation",
-  "license": "MIT",
-  "repository": "SamVerschueren/alfred-node",
-  "author": {
-    "name": "Sam Verschueren",
-    "email": "sam.verschueren@gmail.com",
-    "url": "github.com/SamVerschueren"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava",
-    "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
-  },
-  "files": [
-    "index.js",
-    "icon.png",
-    "info.plist"
-  ],
-  "keywords": [
-    "alfred",
-    "workflow",
-    "node",
-    "nodejs",
-    "documentation",
-    "modules",
-    "alfy"
-  ],
-  "dependencies": {
-    "alfy": "^0.6.0",
-    "builtin-modules": "^1.1.1"
-  },
-  "devDependencies": {
-    "alfy-test": "^0.3.0",
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "alfred-node",
+	"version": "0.2.0",
+	"description": "Alfred 3 workflow to search for Node.js documentation",
+	"license": "MIT",
+	"repository": "SamVerschueren/alfred-node",
+	"author": {
+		"name": "Sam Verschueren",
+		"email": "sam.verschueren@gmail.com",
+		"url": "github.com/SamVerschueren"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava",
+		"postinstall": "alfy-init",
+		"preuninstall": "alfy-cleanup"
+	},
+	"files": [
+		"index.js",
+		"icon.png",
+		"info.plist"
+	],
+	"keywords": [
+		"alfred",
+		"workflow",
+		"node",
+		"nodejs",
+		"documentation",
+		"modules",
+		"alfy"
+	],
+	"dependencies": {
+		"alfy": "^0.6.0",
+		"builtin-modules": "^1.1.1"
+	},
+	"devDependencies": {
+		"alfy-test": "^0.3.0",
+		"ava": "*",
+		"xo": "*"
+	},
+	"xo": {
+		"esnext": true
+	}
 }
