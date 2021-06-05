@@ -1,11 +1,12 @@
-import test from 'ava';
-import alfyTest from 'alfy-test';
+'use strict';
+const test = require('ava');
+const alfyTest = require('alfy-test');
 
 test.beforeEach(t => {
 	t.context.alfy = alfyTest();
 });
 
-test(async t => {
+test('url module', async t => {
 	const result = await t.context.alfy('url');
 
 	t.deepEqual(result, [
